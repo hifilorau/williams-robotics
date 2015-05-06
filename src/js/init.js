@@ -1,1 +1,2 @@
-app.showInitialPage();
+app.fadeIn();
+app.charts();
