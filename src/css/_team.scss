@@ -1,6 +1,7 @@
 .team-content {
 //	padding-top: 2em;
 	font-family: $font-one;
+
 	
 	h1 {
 		text-align: center;
@@ -19,6 +20,8 @@
 	p {
 		padding: 0rem 1rem 1rem 1rem;
 		font-weight: 300;
+		font-size: 1.3em;
+
 		
 	}
 
@@ -34,13 +37,14 @@
 }
 
 .team-header-line {
-	max-width: 50rem;
+	max-width: 90%;
 	margin: 0 auto;
-	font-size: 1.6em;
+	font-size: 1.3em;
 	line-height: 1.1em;
 	font-family: $font-one;
 	padding-bottom: 2em;
 	font-weight: 300;
+	text-align: center;
 }
 
 .team {

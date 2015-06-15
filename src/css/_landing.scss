@@ -215,5 +215,21 @@
 }
 
 
+.learn-more-link {
+	border: 2px solid black;
+	padding: .35em 1em;
+	color: $robot-black;
+	font-family: $font-one;
+	font-weight: bold;
+	font-size: .7em;
+}
+
+.learn-more-link:hover {
+
+	background-color: $robot-black;
+	color: white;
+	border: 2px solid white;
+}
+
 
 

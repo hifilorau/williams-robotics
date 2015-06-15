@@ -1,5 +1,6 @@
 app.charts = function () {
 	var secondColor = "#474657";
+    alert("YO");
 	
 	
 	var data = {
