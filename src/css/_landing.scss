@@ -1,8 +1,41 @@
 .hero-container {
-			background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/williams-dream-house.jpeg) no-repeat center center fixed;
+			background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/williams-new-4.jpg) no-repeat center center fixed;
 			background-size: cover;
 			height: 100vh;
 			position: relative;
+}
+
+.robot-fobot {
+      background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/williams-foreground-bot.png) no-repeat center center fixed;
+			background-size: cover;
+			height: 100vh;
+			position: relative;
+	    z-index: 3737;
+}
+
+.flash, .flash-2, .flash-3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+}
+
+.flash {
+	z-index: 10;
+}
+
+.flash-2 {
+	z-index: 0;
+}
+
+.flash-3 {
+	z-index: 1;
+}
+
+.flash-3 {
+	background-color: lightgoldenrodyellow;
 }
 
 .hero-content, .section-two-content, .section-four-content {
@@ -18,18 +51,29 @@
 
 .hero-content {
 	color: white;
+	font-weight: 700;
 }
 
 .p-1 {
-	padding-top: 15%;
-	font-size: 2.3em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 3em;
+	z-index: 5;
 }
 
 .p-2 {
-	padding-top: .25em;
-	font-size: 1.6em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 2.7em;
 	width: 73%;
 	margin: 0 auto;
+	color: rgba(255, 255, 255, 1);
+	text-transform: uppercase;
+//	text-shadow: 1px 2px rgba(255, 255, 255, .8);
 }
 
 .section-two-content, .section-four-content {
@@ -60,6 +104,7 @@
 
 .section-two-wrapper {
 	background-color: #076A9F;
+	display: none;
 }
 
 .section-two-a-wrapper {
@@ -68,6 +113,7 @@
 	  height: 24em;
 		position: relative;
 	  text-transform: uppercase;
+	  display: none;
 	 
 	p {
 			padding-top: 2.5em;

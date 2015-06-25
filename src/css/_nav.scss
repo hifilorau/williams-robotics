@@ -11,6 +11,8 @@ nav  {
 	list-style-type: none;
 	padding-top: 1em;
 	padding-right: 4em;
+	position: relative;
+	z-index: 08;
 	
 	li {
 		padding-left: 9em;
@@ -28,10 +30,10 @@ nav  {
 	
 	
 	a {
-		color: $robot-white;
+		color: #7D2B39;
 		font-family: $font-one;
 		font-size: 1.3em;
-		font-weight: 300;
+		font-weight: 700;
 		text-transform: uppercase;
 	}
 	
