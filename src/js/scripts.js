@@ -6,22 +6,27 @@ app.fadeIn = function () {
 	$('.robot-fobot').hide();
 	
 	
+//	setTimeout(function() {
+//		  $('.flash-3').effect('pulsate', {times: 4, mode: 'show'}, 300);
+////			$('.p-1').toggle('pulsate', {times: 40}, 600);
+//	}, 4250);
+//	
 	setTimeout(function() {
-		  $('.flash-3').toggle('pulsate', {times: 50}, 500);
+		  $('.flash-3').hide();
 //			$('.p-1').toggle('pulsate', {times: 40}, 600);
-	}, 5500);
+	}, 4650);
 
-		setTimeout(function() {
-			$('.robot-fobot').effect('pulsate', {times: 5, mode: 'show'}, 400);
-		},5200)
-	
+//	setTimeout(function() {
+//			$('.robot-fobot').effect('pulsate', {times: 5, mode: 'show'}, 300);
+//	},4200)
+//	
 //  $( ".flash" ).toggle( "pulsate" );
 
 	setTimeout(function() {
  $( ".p-1" ).toggle( "pulsate" );
 //		$( ".p-1" ).toggle( "pulsate" );
 		setTimeout(function(){
-		  $('.flash-3').toggle('pulsate', {times: 25}, 500);
+		  $('.flash-3').toggle('pulsate', {times: 5}, 100);
 		}, 200);
 		 setTimeout(function() {
 				$('.flash-3').hide()
@@ -29,21 +34,22 @@ app.fadeIn = function () {
 				$('.flash').show();
 				$(".p-1").hide();
 			}, 400);	   
-	}, 3000);	    
+	}, 2700);	    
 
 //	         $('.robot-fobot').css('opacity', 0);
 		setTimeout(function() {
 		
 			setTimeout(function() {
-				$( ".p-2" ).toggle( "pulsate", {times: 10}, 100);
+//				$( ".hero-content" ).toggle( "pulsate", {times: 10}, 300);
+				$( ".p-2" ).fadeIn('slow');
 		    $('.robot-fobot').hide();
-			  $('.flash').hide();
+			  $('.flash').fadeOut(500);
 				$('.flash-3').hide();
 //		    $('.p-2').show();
 				$('.p-1').hide();
-			}, 1000);
+			}, 300);
 		
-		}, 5000 );
+		}, 4300 );
 //	$(".p-1").hide();
 	
 	
