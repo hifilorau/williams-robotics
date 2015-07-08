@@ -1,2 +1,0 @@
-app.fadeIn();
-app.charts();
