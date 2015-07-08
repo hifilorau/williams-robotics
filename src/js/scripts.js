@@ -41,9 +41,9 @@ app.fadeIn = function () {
 		
 			setTimeout(function() {
 //				$( ".hero-content" ).toggle( "pulsate", {times: 10}, 300);
-				$( ".p-2" ).fadeIn('slow');
+				$( ".p-2" ).fadeIn(5000);
 		    $('.robot-fobot').hide();
-			  $('.flash').fadeOut(500);
+			  $('.flash').fadeOut(5000);
 				$('.flash-3').hide();
 //		    $('.p-2').show();
 				$('.p-1').hide();

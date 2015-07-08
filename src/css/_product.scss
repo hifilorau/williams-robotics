@@ -21,13 +21,16 @@
 .product-left-side {
 //	order: 1;
 	box-sizing: border-box;
-	margin: 0 auto;
+//	margin: 0 auto;
 	padding: 5em 3em;
 	font-size: 1.3em;
 	color: $robot-white;
 	text-align: center;
 	font-family: $font-one;
 	font-weight: 300;
+		background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/robot-face.jpg);
+  background-size: cover;
+  min-height: 65vh;
 
 
 	
@@ -73,7 +76,7 @@
 //// section two
 
 .product-section-two {
- padding-top: 7em;
+ padding: 4em 0;
  display: flex;
  flex-wrap: wrap;
  font-family: $font-one;
@@ -82,9 +85,9 @@
 }
 
 .product-robot-wrapper {
-	background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/robot-face.jpg);
-  background-size: cover;
-  min-height: 65vh;
+//	background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/robot-face.jpg);
+//  background-size: cover;
+//  min-height: 65vh;
 }
 
 .features-list-wrapper {
