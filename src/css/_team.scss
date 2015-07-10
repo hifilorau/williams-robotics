@@ -20,10 +20,15 @@
 	p {
 		padding: 0rem 1rem 1rem 1rem;
 		font-weight: 300;
-		font-size: 1.3em;
-
-		
+		font-size: 1.3em;	
 	}
+}
+
+.team-member-flex-wrap {
+	display: flex;
+	flex-direciton: row;
+	flex-wrap: wrap;
+	justify-content: center;
 
 }
 
@@ -52,9 +57,11 @@
 }
 
 .team-person-wrapper {
-	margin: 0 auto;
+//	margin: 0 auto;
 	max-width: 1250px;
 	padding-top: 1.5em;
+	display: flex;
+	flex-direction: column;
 //	border: 1px solid black;
 }
 
@@ -66,9 +73,9 @@
 
 
 .team-person-img {
-	height:auto;
-  width: 200px;
-	border-radius: 100px;
+	height:250px;
+  width: 250px;
+	border-radius: 125px;
 	display: block;
 	margin: 0 auto;
 }
@@ -76,12 +83,12 @@
 .team-person-content-wrapper {
 //	min-height: 260px;
 	display: inline-block;
-	max-width: 42em;
+	max-width: 25em;
 	vertical-align: top;
 	
 	p {
 	
-		font-size:1.3em;
+		font-size:1.1em;
 	}
 }
 

@@ -3,9 +3,12 @@ $robot-white: white;
 $robot-black: black;
 $font-one: 'Lato', sans-serif;
 $second-color: #474657;
+$robot-brown:#7D2B39;
 
 
-
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+}
 
 body {
     font-family: sans-serif;

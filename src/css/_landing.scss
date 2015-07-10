@@ -1,5 +1,5 @@
 .hero-container {
-			background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/williams-new-4.jpg) no-repeat center center fixed;
+			background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/williams-new-5.jpg) no-repeat center center fixed;
 			background-size: cover;
 			height: 100vh;
 			position: relative;
@@ -185,7 +185,11 @@
 }
 
 .section-four-wrapper {
-	background-color: whitesmoke;
+//	background-color: #111111;
+	h3 {
+			margin-bottom: 1.5em;
+	}
+	
 }
 
 .section-five-wrapper {
@@ -263,12 +267,15 @@
 
 
 .learn-more-link {
-	border: 2px solid black;
-	padding: .35em 1em;
-	color: $robot-black;
+	border: 2px solid white;
+	padding: .6em 1.5em;
+	color: whitesmoke;
 	font-family: $font-one;
 	font-weight: bold;
-	font-size: .7em;
+	font-size: 1.5rem;
+	background-color: $robot-brown;
+	border-radius: .2em;
+	text-transform: uppercase;
 }
 
 .learn-more-link:hover {
