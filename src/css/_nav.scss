@@ -17,6 +17,8 @@ line-height: 1.3;
 	padding-right: 4em;
 	position: relative;
 	z-index: 08;
+	max-width: 1250px;
+	margin: 0 auto;
 	
 	li {
 		padding-left: 9em;
@@ -73,6 +75,8 @@ footer {
 	align-items: flex-end;
 	padding: .75em 2em .35em 2em;
 	font-family: $font-one;
+	max-width: 1250px;
+	margin: 0 auto;
 	
 	a {
 	 font-family: $font-one;

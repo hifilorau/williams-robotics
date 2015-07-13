@@ -30,6 +30,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 
+
 }
 
 .team-top-wrapper {
@@ -68,14 +69,15 @@
 .team-person-img-wrapper {
 	padding: .75rem;
 	display: inline-block;
-	width: 400px;
+	width: 100%;
+	
 }
 
 
 .team-person-img {
-	height:250px;
-  width: 250px;
-	border-radius: 125px;
+	height:200px;
+  width: 200px;
+	border-radius: 100px;
 	display: block;
 	margin: 0 auto;
 }
@@ -83,12 +85,18 @@
 .team-person-content-wrapper {
 //	min-height: 260px;
 	display: inline-block;
-	max-width: 25em;
+	max-width: 22em;
 	vertical-align: top;
+	
+	h2 {
+	margin: 0
+	}
+	
+	h3 {margin: 0}
 	
 	p {
 	
-		font-size:1.1em;
+		font-size:1em;
 	}
 }
 
