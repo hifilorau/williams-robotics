@@ -24,11 +24,38 @@
 	}
 }
 
+
+
+.core-values {
+		max-width: 1250px;
+	  margin: 0 auto;
+	  text-align: center;
+	  display: flex;
+	  justify-content: center;
+	  padding: 1em 0 2em;
+	
+	
+	
+	ul {
+	 display: inline-block;
+		padding: 0 4em 2em
+	 
+//	max-width:
+	}
+	li {
+		list-style-type: disc;
+		font-size: 1.3em;
+		text-align: left;
+		margin-top: .3em;
+	}
+}
+
 .team-member-flex-wrap {
 	display: flex;
 	flex-direciton: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-top: 2em;
 
 
 }
@@ -102,11 +129,18 @@
 
 
 .jobs {
-	padding-top: 3em;
+	padding-top: 2em;
 	max-width: 65em;
 	
 	p {
 		font-size: 1.3em;
 	}
 
+}
+
+.value-p {
+	text-align: center;
+	padding: 0 2em;
+	max-width: 90%;
+	margin: 0 auto;
 }
