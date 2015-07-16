@@ -5,26 +5,12 @@ app.fadeIn = function () {
 	$('.flash-3').hide();
 	$('.robot-fobot').hide();
 	
-	
-//	setTimeout(function() {
-//		  $('.flash-3').effect('pulsate', {times: 4, mode: 'show'}, 300);
-////			$('.p-1').toggle('pulsate', {times: 40}, 600);
-//	}, 4250);
-//	
 	setTimeout(function() {
 		  $('.flash-3').hide();
-//			$('.p-1').toggle('pulsate', {times: 40}, 600);
 	}, 4650);
-
-//	setTimeout(function() {
-//			$('.robot-fobot').effect('pulsate', {times: 5, mode: 'show'}, 300);
-//	},4200)
-//	
-//  $( ".flash" ).toggle( "pulsate" );
 
 	setTimeout(function() {
  $( ".p-1" ).toggle( "pulsate" );
-//		$( ".p-1" ).toggle( "pulsate" );
 		setTimeout(function(){
 		  $('.flash-3').toggle('pulsate', {times: 5}, 100);
 		}, 200);
@@ -43,13 +29,13 @@ app.fadeIn = function () {
 //				$( ".hero-content" ).toggle( "pulsate", {times: 10}, 300);
 				$( ".p-2" ).fadeIn(5000);
 		    $('.robot-fobot').hide();
-			  $('.flash').fadeOut(5000);
+			  $('.flash').fadeOut(2500);
 				$('.flash-3').hide();
 //		    $('.p-2').show();
 				$('.p-1').hide();
 			}, 300);
 		
-		}, 4300 );
+		}, 2900 );
 //	$(".p-1").hide();
 	
 	
