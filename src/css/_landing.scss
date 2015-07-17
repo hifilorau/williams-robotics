@@ -61,6 +61,7 @@
 	transform: translate(-50%,-50%);
 	font-size: 3em;
 	z-index: 12;
+	width: 73%;
 }
 
 .p-2 {
@@ -75,6 +76,14 @@
 	text-transform: uppercase;
 	z-index: 100000;
 //	text-shadow: 1px 2px rgba(255, 255, 255, .8);
+}
+
+.expand-2 {
+	top: 75%;
+}
+
+.expand-3 {
+	height: 125vh;
 }
 
 .section-two-content, .section-four-content {
@@ -272,7 +281,7 @@
 	color: whitesmoke;
 	font-family: $font-one;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	background-color: $robot-brown;
 	border-radius: .2em;
 	text-transform: uppercase;
