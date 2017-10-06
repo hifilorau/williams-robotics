@@ -1,0 +1,397 @@
+.hero-container {
+   min-height: 100vh;
+   width: 100%;
+}
+
+// .robot-fobot {
+//       background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/williams-foreground-bot.png) no-repeat center center fixed;
+// 			background-size: cover;
+// 			height: 100vh;
+// 			position: relative;
+// 	    z-index: 3737;
+// }
+
+video {
+	margin: 0;
+	padding: 0;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+	// left: 0;
+	right: 0;
+	bottom: 0;
+  width: 100%;
+  z-index: 1;
+  min-width: 100%;
+  // min-height: 91vh;
+  // transform: translate(-50%, -50%);
+	background-size: cover;
+}
+
+
+.hero-content, .section-two-content, .section-four-content {
+
+	font-family: 'Lato';
+	font-weight: 300;
+	line-height: 1.8em;
+	// width: 60%;
+	letter-spacing: 2px;
+	text-align: center;
+	line-height: 1.3em;
+}
+
+.hero-content {
+	color: white;
+	font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  z-index: 100;
+}
+
+.p-1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 3em;
+	z-index: 12;
+	width: 73%;
+	margin: 0 auto;
+}
+
+.p-2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 2.7em;
+	width: 73%;
+	margin: 0 auto;
+	color: rgba(255, 255, 255, 1);
+	text-transform: uppercase;
+	z-index: 100000;
+//	text-shadow: 1px 2px rgba(255, 255, 255, .8);
+}
+
+.expand-2 {
+	top: 75%;
+}
+
+.expand-3 {
+	height: 125vh;
+}
+
+.section-two-content, .section-four-content {
+	color: $robot-white;
+	padding: 3em 0;
+	font-size: 1.75em;
+
+	p {
+		position: relative;
+		z-index: 1000;
+
+
+	}
+}
+
+.section-four-content {
+	color: $robot-black;
+}
+
+
+.logo-wrapper {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	color: orangered;
+	font-size: 1.9em;
+}
+
+.section-two-wrapper {
+	background-color: #076A9F;
+	display: none;
+}
+
+.section-two-a-wrapper {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/6/67/BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg) no-repeat center center fixed;
+	  background-size: cover;
+	  height: 24em;
+		position: relative;
+	  text-transform: uppercase;
+	  display: none;
+
+	p {
+			padding-top: 2.5em;
+			font-weight: 700;
+		}
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+
+}
+
+
+.section-three-wrapper {
+		height: auto;
+		position: relative;
+
+}
+
+.section-three-section {
+		display: flex;
+		align-items: stretch;
+	 	flex-wrap: wrap;
+	 	flex-direction: row;
+	  justify-content: space-between;
+	  overflow: hidden;
+
+}
+
+.section-three-photo {
+
+	  background: url(http://www.greenbuildingadvisor.com/sites/default/files/ZEH%20Wheat%20Ridge%202%20copy.jpg) no-repeat center center fixed;
+		background-size: cover;
+	  height: auto;
+		width: 40%;
+	  overflow: hidden;
+	  display: inline-block;
+	  flex-grow: 1;
+}
+
+
+
+.section-three-content {
+	padding-top: 2.6em;
+	text-align: left;
+	width: 50%;
+	display: inline-block;
+	flex-grow: 1;
+	font-size: 1.4em;
+	padding-left: 2em;
+	line-height: 1.3em;
+	font-family: $font-one;
+	font-weight: 300;
+	padding-right: 2em;
+	height: auto;
+
+	p {
+		width: 77%;
+		margin-left: 2em;
+		padding-bottom: 1em;
+	}
+
+}
+
+.section-four-wrapper {
+//	background-color: #111111;
+	h3 {
+			margin-bottom: 1.5em;
+	}
+
+}
+
+.section-five-wrapper {
+		background: url(http://upload.wikimedia.org/wikipedia/commons/6/67/BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg) no-repeat center center fixed;
+	  background-size: cover;
+	  height: 16em;
+}
+
+.section-chart-wrapper {
+	background-color: #762D36;
+	background-color: #151421;
+	height: auto;
+	padding: 2em 0 4em;
+}
+
+.section-chart {
+	max-width: 1250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+#line-chart {
+	margin: 0 auto;
+}
+
+
+.line-chart-title, .donut-chart-title {
+	font-family: $font-one;
+	color: $robot-white;
+}
+
+.donut-chart-title {
+	padding-top: .2em;
+}
+
+.chart-1-wrapper {
+//	  display: inline-block;
+		margin-top: 35px;
+//	  padding-left: 2em;
+	  flex-grow: 1;
+	  height: 100%;
+	  text-align: center;
+}
+
+.chart-2-wrapper {
+//    display: inline-block;
+		margin-top: 35px;
+	  height: 100%;
+		flex-grow: 1;
+	  text-align: center;
+	  position: relative;
+}
+
+.chart-center-div {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icon-robot {
+	font-size: 3em;
+	color: #474657;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform:translate(-50%);
+	font-family: robots;
+}
+
+.icon {
+	font-family: robots;
+}
+
+
+.learn-more-link {
+	border: 2px solid white;
+	padding: .6em 1.5em;
+	color: whitesmoke;
+	font-family: $font-one;
+	font-weight: bold;
+	font-size: 1rem;
+	background-color: $robot-brown;
+	border-radius: .2em;
+	text-transform: uppercase;
+}
+
+.learn-more-link:hover {
+
+	background-color: $robot-black;
+	color: white;
+	border: 2px solid white;
+	border-radius: .3em;
+}
+
+/*  TABS */
+
+.section-tabs {
+	background-color: #076A9F;
+	padding: 5em 0 7em;
+}
+
+.tab-section-header {
+	color: white;
+	text-align: center;
+	margin-bottom: 2em;
+	font-family: $font-one;
+}
+
+.ben-header {
+	margin-left: 1.5em;
+	font-size: 1.3em;
+}
+
+.tabs {
+	display: flex;
+	flex-direction: row;
+
+	li {
+		padding: .25em .5em;
+		cursor: pointer;
+		color: white;
+		background-color: #555;
+		border-top-right-radius: .3em;
+		border-top-left-radius: .3em;
+		margin-right: .1em;
+		text-transform: uppercase;
+	}
+
+	li:last-child {
+		border-right: none;
+	}
+	.active-tab {
+	background-color: white;
+		color: black;
+}
+}
+
+
+.production-cat-wrapper {
+	max-width: 35em;
+	margin: 0 auto;
+}
+
+.benefits-wrapper {
+	padding: 1em;
+	background-color: white;
+	min-height: 10.4em;
+	border-radius: 0 .3em .3em .3em;
+
+	h3 {
+		font-weight: 400;
+		padding-top: 1em;
+		font-family: $font-one;
+		text-align: center;
+		font-size: 1.5em;
+	}
+}
+
+.benefits {
+	list-style: circle;
+	margin-left: 2em;
+	margin-top: .25em;
+}
+
+.center-logo {
+	display: block;
+	margin: 0 auto;
+	height: 35px !important;
+	padding-top: 1em;
+}
+
+
+
+
+@media only screen and (max-width: 611px) {
+	.p-1, .p-2 {
+		font-size: 1.7em;
+	}
+
+	.tabs li {
+		font-size: .8em;
+	}
+
+	.production-cat-wrapper {
+		max-width: 95%;
+	}
+
+}
+
+@media only screen and (max-width: 411px) {
+		.tabs li {
+		font-size: .6em;
+	}
+
+}

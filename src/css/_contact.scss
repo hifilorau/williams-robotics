@@ -1,0 +1,72 @@
+.contact-wrapper {
+	text-align: center;
+	font-family: $font-one;
+	background-color: white;
+	font-size: 1.3em;
+	padding-top: 2em;
+	
+	
+	h2 {
+		font-family: 'Lato', sans-serif !important;
+	}
+	
+	
+	p {
+		text-align: center;
+		font-size: 1em;
+		color: $robot-black;
+		font-weight: 300;
+		margin: 0 auto;
+		text-align: left;
+		padding: 0 3em 1em;
+	}
+	
+	.sig {
+		color: $robot-black;
+		text-align: left;
+		padding: .3em 0em 1em 3em;
+		font-weight: 400;
+		
+	}
+	
+	.contact-letter {
+		padding-top: 0;
+		max-width: 52em;
+		margin: 0 auto;
+	}
+}
+
+
+.contact-info, .contact-needs {
+//	display: inline-block;
+	max-width: 20em;
+	text-align: left;
+	vertical-align: top;
+	color:$robot-black;
+	font-weight: 300;
+	padding-left: 3em;
+	
+	li:first-child {
+		font-weight: 700;
+	}
+	
+	
+	a {
+//		color: black;
+	}
+
+}
+
+.contact-needs {
+	padding-right: 10em;
+
+}
+
+.robot-wrapper {
+	background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/robot-cropped.png) center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: white;
+	min-height: 55vh;
+
+}

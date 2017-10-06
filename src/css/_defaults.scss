@@ -1,0 +1,46 @@
+
+$robot-white: white;
+$robot-black: #444;
+$font-one: 'Lato', sans-serif;
+$second-color: #474657;
+$robot-brown:#7D2B39;
+
+
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+ 		text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.4em;
+    background: #FFF;
+    color: #444;
+	  max-width: 100%;
+	  overflow-x: hidden;
+}
+
+h1 { font-size: 2em; margin: .67em 0 }
+h2 { font-size: 1.8rem; margin: .75em 0 }
+h3 { font-size: 1.17em; margin: .83em 0 }
+h5 { font-size: .83em; margin: 1.5em 0 }
+h6 { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4,
+h5, h6 {
+  font-weight: bolder
+}
+
+p {
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #00AAEE;
+  text-decoration: none;
+}
+
+.section {
+	max-width: 1250px;
+	margin: 0 auto;
+
+}

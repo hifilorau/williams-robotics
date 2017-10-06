@@ -1,0 +1,150 @@
+//.top-product-wrapper {
+////	display: flex;
+////	flex-wrap: wrap;
+////	flex-direction: row;
+////	justify-content: space-between;
+////	background-color: #994756;
+////	background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/starry-sky.jpg);
+////	background-size: cover;
+//}
+
+.product-section-two-wrapper{
+		display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+}
+
+
+
+
+.product-left-side {
+//	order: 1;
+	box-sizing: border-box;
+//	margin: 0 auto;
+	padding: 2rem 3em 3em;
+	font-size: 1.3em;
+	color: $robot-black;
+	text-align: center;
+	font-family: $font-one;
+	font-weight: 300;
+//	background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/robot-face.jpg);
+  background-size: cover;
+//  min-height: vh;
+	position: relative;
+	background-color: white;
+
+
+	
+	p {
+		line-height: 1.3em;
+		text-align: left;
+		font-size: 1em;
+		padding-top: 0em;
+		max-width: 50em;
+		margin: 0 auto;
+		z-index: 100;
+		position: relative;
+	}
+	
+  
+	
+	a {
+
+		border: none;
+//		color: $robot-white;
+//		font-size: .8em;
+//		width: 14em;
+		position: relative;
+		z-index: 100;
+		
+	}
+	
+}
+
+.video-wrapper {
+//	float: right;
+}
+
+.product-right-side {
+//	order: 2;
+	max-width: 30em;
+	height: 100%;
+	color: #222;
+	display: inline-block;
+
+}
+
+.product-right-side-img {
+//	background: url(https://s3-us-west-2.amazonaws.com/williams-robotics/BCMC_robot+comp.JPG) no-repeat center center;
+//	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+	
+}
+
+.bottom-padding {
+	padding-bottom: 1.5em;
+}
+
+
+//.dark-overlay {
+//	position: absolute;
+//	background-color: rgba(0,0,0,.5);
+//	top: 0;
+//	left: 0;
+//	right: 0;
+//	bottom: 0;
+//}
+
+//// section two
+
+.product-section-two {
+ padding: 2em 3em;
+ display: flex;
+ flex-wrap: wrap;
+ font-family: $font-one;
+ justify-content: space-around;
+ flex-direction: row;
+ 
+}
+
+.video-wrapper {
+	padding-bottom: 3em;
+	border: none;
+}
+
+
+.features-list-wrapper {
+	font-size: 1.2em;
+	padding: 0 2em;
+	display: inline-block;
+	
+	
+}
+
+.product-features {
+	max-width:  17em;
+	margin: 0 auto;
+	list-style-type: square !important;
+	font-weight: 300;
+	font-size: 1.1em;
+	
+	li {
+		padding: .1em 0;
+	}	
+	
+	h3 {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.section-two-right-side {
+	font-weight: 300;
+	display: inline-block;
+	max-width: 25em;
+
+}

@@ -1,0 +1,201 @@
+.team-content {
+//	padding-top: 2em;
+	font-family: $font-one;
+
+
+	h1 {
+		text-align: center;
+		font-weight: 300;
+		font-size: 1.5em;
+	}
+
+	h2 {
+		padding-left: 1rem;
+		margin: .7rem 0 .1rem;
+		color: #076A9F;
+
+	}
+
+	h3 {
+		padding-left: 1rem;
+	}
+
+	p {
+		padding: 0rem 1rem 1rem 1rem;
+		font-weight: 300;
+		font-size: 1.3em;
+	}
+}
+
+.vision-section {
+	margin-below: 4em !important;
+}
+.vision {
+	padding: 1em 0 0;
+}
+
+
+.vision-subtext {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.core-values {
+	  max-width: 1250px;
+	  margin: 0 auto;
+	  text-align: center;
+	  display: flex;
+	  justify-content: center;
+	  padding: 1em 0 2em;
+
+
+
+	ul {
+	 display: inline-block;
+		padding: 0 3em 2em
+
+//	max-width:
+	}
+	li {
+		list-style-type: disc;
+		font-size: 1.3em;
+		text-align: left;
+		margin-top: .3em;
+	}
+}
+
+.content-clickable {
+	cursor: pointer;
+	color: #076A9F;
+}
+
+.content-clicked {
+	font-size: .9em;
+	padding: 2em;
+	max-width: 70%;
+	margin: 0 auto;
+	background: cornflowerblue;
+	position: relative;
+	margin-bottom: 2em;
+	p {
+		margin: 0;
+		padding: 0;
+		color: white;
+	}
+	.close {
+		position: absolute;
+		top: 5px;
+		right: 20px;
+		font-size: 1.4em;
+		cursor: pointer;
+	}
+	h3 {
+		margin: 0;
+		padding: 0;
+		font-size: 1.4em;
+		margin-bottom: .25em;
+	}
+}
+
+.team-member-flex-wrap {
+	display: flex;
+	flex-direciton: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 2em;
+
+
+}
+
+.team-top-wrapper {
+		background: url('https://s3-us-west-2.amazonaws.com/williams-robotics/starry-sky.jpg');
+		background-size: cover;
+		color: $robot-white;
+	  padding: 3em 0;
+
+
+}
+
+.team-header-line {
+	max-width: 90%;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 1.1em;
+	font-family: $font-one;
+	padding-bottom: 2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+.team {
+//	background-color: lightgrey;
+}
+
+.team-person-wrapper {
+//	margin: 0 auto;
+	max-width: 1250px;
+	padding-top: 1.5em;
+	display: flex;
+	flex-direction: column;
+//	border: 1px solid black;
+}
+
+.team-person-img-wrapper {
+	padding: .75rem;
+	display: inline-block;
+	width: 100%;
+
+}
+
+
+.team-person-img {
+	height:200px;
+  width: 200px;
+	border-radius: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.team-person-content-wrapper {
+//	min-height: 260px;
+	display: inline-block;
+	max-width: 24em;
+	vertical-align: top;
+
+	h2 {
+	margin: 0;
+	font-size: 1.5em;
+	}
+
+	h3 {margin: 0}
+
+	p {
+		font-size:1em;
+		margin-bottom: 0;
+	}
+}
+
+.team-header {
+	text-align: center;
+	color: $robot-black !important;
+	font-size: 1.8em !important;
+}
+
+
+.jobs {
+	padding-top: 2em;
+	max-width: 65em;
+
+	p {
+		font-size: 1.3em;
+	}
+
+}
+
+.value-p {
+	text-align: center;
+	padding: 0 2em;
+	max-width: 90%;
+	margin: 0 auto;
+}
