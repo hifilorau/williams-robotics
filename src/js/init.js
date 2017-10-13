@@ -3,3 +3,4 @@ app.fadeIn();
 app.hamburger();
 app.tabs();
 app.values();
+app.productOverlay();
